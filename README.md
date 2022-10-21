@@ -1,7 +1,29 @@
-# Vue 3 + Vite
+# pokedex-vuejs
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
 
-## Recommended IDE Setup
+<img src="./assets/p-1.png" widht="150px" alt="print-project">
+<img src="./assets/p-2.png" widht="150px" alt="print-project">
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+>Resultado do Pokédex.
+
+>clique aqui => https://cepbusqueja.netlify.app/
+
+O projeto Foi desenvolvido usando as seguintes tecnologias:
+
+- [x] Vuejs
+- [x] Consumindo API
+## 🤝 Colaboradores
+
+Agradecemos às seguintes pessoas que contribuíram para este projeto:
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://www.linkedin.com/in/danilo-vieira-10515123a/">
+        <img src="https://avatars3.githubusercontent.com/u/31936044" width="100px;" alt="Foto do Danilo Vieira"/><br>
+        <sub>
+          <b>Danilo Vieira</b>
+        </sub>
+      </a>
+    </td>
+</table>
