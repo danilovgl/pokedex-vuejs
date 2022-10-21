@@ -1,0 +1,222 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ #app{
+  background: rgb(228,228,228);
+  background: radial-gradient(circle, rgba(228,228,228,1) 25%, rgba(138,134,126,1) 100%);
+-webkit-background-size:cover;
+-moz-background-size:cover;
+-moz-background-size:cover  !important;
+background-size: cover !important;
+background-position: center;
+min-height: 100vh;
+min-width: 50vw;
+}
+header{
+    background-color: rgb(33, 10, 238);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 0 10px;
+}
+
+.container-itens{
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+}
+
+input{
+    height: 30px;
+    width:100% ;
+    border-radius:10px ;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding-left: 10px;
+}
+input::placeholder{
+    color: black;
+    padding-left: 10px;
+}
+
+nav{
+  display: flex;
+  flex-wrap: wrap;
+}
+.card{
+    background: #fff;
+    box-shadow: 0px 2px 18px rgb(19, 2, 66);
+    border-radius: 8px;
+    transition: transform .2s;
+    padding: 15px;
+    height: 280px;
+    width: 250px;
+    margin: 60px;
+    cursor: pointer;
+}
+
+.card:hover{
+    transition:0.7s;
+    transform: scale(1.1);
+    border: 3px solid red;
+    
+}
+
+.topCard{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(33, 10, 238);
+    border-radius: 5px;
+    height: 50px;
+}
+
+.pokemons{
+    position: relative;
+    height: 200px;
+    width: 100%;
+}
+
+.button {
+    appearance: none;
+    outline: none;
+    border: none;
+    background: none;
+    cursor: pointer;
+    
+    display: inline-block;
+    padding: 15px 25px;
+    background-color: rgb(33, 10, 238);
+    border-radius: 8px;
+    
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+    
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.4);
+    transition: 0.4s ease-out}
+
+
+    .modal-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 98;
+        background-color: rgba(0, 0, 0, 0.8);
+       }
+       
+       .modal {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 99;
+        
+        height: 670px;
+        width: 30%;
+        
+        background-color: #FFF;
+        border-radius: 16px;
+        
+        padding: 25px;}
+
+        h1 {
+            color: #222;
+            font-size: 32px;
+            font-weight: 900;
+            margin-bottom: 15px;
+            text-align: center;
+            background-color: rgb(33, 10, 238);
+            border-radius: 10px;
+            width: 100%;
+           }
+           
+           p{
+            color: #FFF;
+            font-size: 18px;
+            font-weight: 400;
+            margin-bottom: 15px;
+           }
+           .fade-enter-active,
+.fade-leave-active {
+ transition: opacity .5s;
+}
+
+.fade-enter,
+.fade-leave-to {
+ opacity: 0;
+}
+
+.slide-enter-active,
+.slide-leave-active {
+ transition: transform .5s;
+}
+
+.slide-enter,
+.slide-leave-to {
+ transform: translateY(-50%) translateX(100vw);
+}
+
+.pokemons-popup{
+    min-height: 150px;
+    min-width: 50%;
+}
+
+.box-popup{
+    background-color: transparent;
+    border-radius: 10px;
+}
+
+.box-popup-2{
+    background-color: blue;
+    border-radius: 10px;
+    padding-left: 10px;
+    min-height: 30px;
+    min-width: 50%;
+    margin-bottom: 5px;
+}
+.box-popup-type{
+    background-color: grey;
+    padding-left: 10px;
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+   margin-bottom: 5px;
+   margin-left: 60px;
+}
+.container-state{
+    display: flex;
+    align-items: baseline;
+}
+
+.div-state{
+    background-color: red;
+    border-radius: 10px;
+    padding-left: 10px;
+    height: 30px;
+    width: 200px;
+
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+   margin-bottom: 5px;
+}
+
+@media (max-width: 900px){
+    .modal{
+        width: 300px;
+    }
+}
