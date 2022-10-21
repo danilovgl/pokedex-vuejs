@@ -1,8 +1,8 @@
 # pokedex-vuejs
 
 
-<img src="./assets/p-1.png" widht="150px" alt="print-project">
-<img src="./assets/p-2.png" widht="150px" alt="print-project">
+<img src="./p-1.png" widht="150px" alt="print-project">
+<img src="./p-2.png" widht="150px" alt="print-project">
 
 >Resultado do Pokédex.
 
